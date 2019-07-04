@@ -34,7 +34,10 @@ for (var i = 1; i < 100; i++){
   }
 
 
-console.log(i);
+else if(i !== 'Fizz' || i !== 'Buzz' ||i !=='FizzBuzz'){
+  console.log(i);
+}
+
 
 
 }
