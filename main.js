@@ -11,7 +11,7 @@ console.log('uè');
 
 // ciclo da 1 a 100:
 
-for (var i = 1; i < 100; i++){
+for (var i = 1; i <= 100; i++){
 
 // console.log(i);
   // imposto condizione multiplo di 3 e stampo fizz
@@ -34,10 +34,9 @@ for (var i = 1; i < 100; i++){
   }
 
 
-else if(i !== 'Fizz' || i !== 'Buzz' ||i !=='FizzBuzz'){
-  console.log(i);
-}
+  else if(i !== 'Fizz' || i !== 'Buzz' ||i !=='FizzBuzz'){
+    console.log(i);
 
-
+  }
 
 }
