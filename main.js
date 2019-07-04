@@ -7,7 +7,7 @@ console.log('uè');
 //
 // *NOTE=* fate output in console -
 // dichiaraz var
-var fizz, buzz;
+
 
 // ciclo da 1 a 100:
 
