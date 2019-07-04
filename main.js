@@ -6,13 +6,26 @@ console.log('uè');
 // Esattamente quelle devono essere le stringhe di output.
 //
 // *NOTE=* fate output in console -
-
+// dichiaraz var
 
 // ciclo da 1 a 100:
-// imposto condizione multiplo di 3 e stampo fizz
+
+for (var i = 1; i < 100; i++){
+
+// console.log(i);
+  // imposto condizione multiplo di 3 e stampo fizz
+  if (i % 3 == 0){
+    i = 'Fizz';
+  }
+
+  // imposto condizione multiplo di 5 e stampo buzz
+
+  else if(i % 5 == 0){
+    i = 'Buzz';
+  }
+  // se entrambe condizioni : fizz + buzz
 
 
-// imposto condizione multiplo di 5 e stampo buzz
 
-
-// se entrambe condizioni : fizz + buzz
+console.log(i);
+}
