@@ -11,32 +11,65 @@ console.log('uè');
 
 // ciclo da 1 a 100:
 
+// for (var i = 1; i <= 100; i++){
+//
+// // console.log(i);
+//   // imposto condizione multiplo di 3 e stampo fizz
+//
+//   if (i % 3 == 0 && i % 5 != 0){
+//     console.log('Fizz');
+//
+//
+//   }
+//   // imposto condizione multiplo di 5 e stampo buzz
+//
+//   else if(i % 5 == 0 && i % 3 != 0){
+//     console.log('Buzz') ;
+//
+//
+//   }
+//   // se entrambe condizioni : fizz + buzz
+//   else if (i % 3 == 0 && i % 5 == 0) {
+//     console.log('FizzBuzz');
+//   }
+//
+//
+//   else if(i !== 'Fizz' || i !== 'Buzz' ||i !=='FizzBuzz'){
+//     console.log(i);
+//
+//   }
+//
+// }
+
+
+
 for (var i = 1; i <= 100; i++){
 
 // console.log(i);
-  // imposto condizione multiplo di 3 e stampo fizz
+  // imposto prima entrambe le condizioni
 
-  if (i % 3 == 0 && i % 5 != 0){
-    console.log('Fizz');
+  if (i % 3 == 0 && i % 5 == 0){
+    console.log('FizzBuzz');
 
 
   }
-  // imposto condizione multiplo di 5 e stampo buzz
+  // poi imposto le altre
 
-  else if(i % 5 == 0 && i % 3 != 0){
+  else if(i % 5 == 0 ){
     console.log('Buzz') ;
 
 
   }
-  // se entrambe condizioni : fizz + buzz
-  else if (i % 3 == 0 && i % 5 == 0) {
-    console.log('FizzBuzz');
+
+  else if (i % 3 == 0 ) {
+    console.log('Fizz');
   }
 
 
-  else if(i !== 'Fizz' || i !== 'Buzz' ||i !=='FizzBuzz'){
+   else {
     console.log(i);
 
-  }
+   }
 
 }
+            // già, ma perchè?????????????
