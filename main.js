@@ -8,9 +8,7 @@ console.log('uè');
 // *NOTE=* fate output in console -
 
 
-// creo un array con num da 1 a 100
-
-// attraverso l'array:
+// ciclo da 1 a 100:
 // imposto condizione multiplo di 3 e stampo fizz
 
 
